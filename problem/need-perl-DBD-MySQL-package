@@ -1,0 +1,13 @@
+需要安装五个包：
+DBI-1.633.tar.gz
+Data-ShowTable-4.6.tar.gz
+Test-Simple-1.001014.tar.gz
+Test-Deep-0.117.tar.gz
+DBD-mysql-4.031.tar.gz
+顺序安装上面5个就OK了，安装方式：
+tar -zxvf *.tar.gz
+cd ....
+perl Makefile.PL
+make
+make test
+make install
